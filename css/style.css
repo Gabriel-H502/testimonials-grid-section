@@ -1,0 +1,124 @@
+:root {
+    --violet: rgb(117, 65, 200);
+    --darkgrey: rgb(72, 85, 106);
+    --darkgrey50opa: rgba(72, 85, 106, 0.5);
+    --darkgrey70opa: rgba(72, 85, 106, 0.7);
+    --darkblue: rgb(25, 33, 46);
+    --lightgray: rgb(207, 207, 207);
+    --lightblue: rgb(236, 242, 248);
+    --white: rgb(255, 255, 255);
+    --white50opa: rgba(255, 255, 255, 0.5);
+    --white70opa: rgba(255, 255, 255, 0.7);
+}
+
+* {margin: 0;}
+body {background-color: var(--lightblue)}
+
+.cards {
+    margin: 80px;
+    display: grid;
+    grid-template-areas: 
+        "card1 card1 card2 card5"
+        "card3 card4 card4 card5";
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 13px;
+    color: var(--white);
+    gap: 30px;
+}
+
+.card1, .card2, .card3, .card4, .card5 {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.05);
+}
+
+.quotation-icon {
+    position: absolute;
+    left: 25%;
+    z-index: 1;
+}
+
+.card1 {
+    grid-area: card1;
+    background-color: var(--violet);
+}
+
+.card2 {
+    grid-area: card2;
+    background-color: var(--darkgrey);
+}
+
+.card3 {
+    grid-area: card3;
+    background-color: var(--white);
+}
+
+.card4 {
+    grid-area: card4;
+    background-color: var(--darkblue);
+}
+
+.card5 {
+    grid-area: card5;
+    background-color: var(--white);
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-icons {
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid #a65bbd;
+    margin-right: 10px;
+}
+
+.testimonial-name {
+    color: var(--white);
+}
+
+.testimonial-graduation {
+    color: var(--white50opa);
+}
+
+.testimony {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 20px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.review {
+    line-height: 1.4;
+    color: var(--white70opa);
+}
+
+.card3 .testimony, .card3 .testimonial-name,
+.card5 .testimony,  .card5 .testimonial-name {
+    color: var(--darkgrey);
+}
+
+.card3 .testimonial-graduation, .card5 .testimonial-graduation {
+    color: var(--darkgrey50opa);
+}
+
+.card3 .review, .card5 .review {
+    color: var(--darkgrey70opa);
+}
+
+.card2 .testimonial-icons, .card3 .testimonial-icons, .card5 .testimonial-icons {
+    border: 3px solid var(--darkgrey);
+}
+
+@media only screen and (max-width: 1000px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .quotation-icon {
+        left: 60%;
+    }
+}
