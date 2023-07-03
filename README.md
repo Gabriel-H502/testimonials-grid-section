@@ -2,6 +2,8 @@
 
 This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+[Click here](README-br.md) to see a brazilian version.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -11,6 +13,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Time spent](#time-spent)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -28,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/testimonial-grid-section-LeZVR-owA0)
+- Live Site URL: [Add live site URL here](https://gabriel-h502.github.io/testimonials-grid-section/)
 
 ## My process
 
@@ -49,6 +52,10 @@ grid-template-areas:
   "card1 card1 card2 card5"
   "card3 card4 card4 card5";
 ```
+
+### Time spent
+
+- 2h 40min
 
 ## Author
 

@@ -2,6 +2,8 @@
 
 Essa é minha solução para o [Desafio da seção de grade de depoimentos no Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Os desafios do Frontend Mentor lhe ajudam a aprimorar habilidades de codificação construindo projetos realistas. 
 
+[Clique aqui](README.md) para retornar a versão em inglês.
+
 ## Tabela de conteúdos
 
 - [Overview](#overview)
@@ -11,6 +13,7 @@ Essa é minha solução para o [Desafio da seção de grade de depoimentos no Fr
 - [Meu progresso](#meu-progresso)
   - [Feito com](#feito-com)
   - [O que aprendi](#o-que-aprendi)
+  - [Tempo gasto](#tempo-gasto)
 - [Autor](#autor)
 - [Conhecimentos](#conhecimentos)
 
@@ -28,8 +31,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solution URL: [Solution](#)
-- Live Site URL: [Live Site](#)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/testimonial-grid-section-LeZVR-owA0)
+- Live Site URL: [Live Site](https://gabriel-h502.github.io/testimonials-grid-section/)
 
 ## Meu progresso
 
@@ -50,12 +53,15 @@ grid-template-areas:
   "card3 card4 card4 card5";
 ```
 
+### Tempo gasto
+
+- 2h 40min
+
 ## Autor
 
 - Frontend Mentor - [@Gabriel-H502](https://www.frontendmentor.io/profile/Gabriel-H502)
 - FreeCodeCamp - [@Gabriel-H502](https://www.freecodecamp.org/Gabriel-H502) 
 - GitHub - [Gabriel-H502](https://github.com/Gabriel-H502)
-
 
 ## Conhecimentos
 
